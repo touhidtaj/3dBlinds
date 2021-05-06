@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle
+}
+
+q,
+blockquote {
+    quotes: none
+}
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none
+}
+
+a img {
+    border: none
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    color: #CCC;
+    text-decoration: none
+}
+
+
+body, html {
+    font-family: helvetica, arial, sans-serif;
+    overflow: hidden;
+}
+
+body section.container {
+    width: 300px;
+    height: 250px;
+}
+
+body section.container h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: lowercase;
+    margin-bottom: 0.2em
+}
+
+body section.container h2 {
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+body section.container div#slider {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+body section.container div#slider div.fluxslider div.surface {
+    width: 100%;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+body section.container div#slider div.fluxslider ul.pagination {
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 0 !important;
+    overflow: hidden
+}
+
+body section.container div#slider div.fluxslider ul.pagination li {
+    text-indent: 10000px;
+    height: 8px;
+    width: 8px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+body section.container div#slider div.fluxslider ul.pagination li.current {
+    background: rgba(255, 255, 255, 0.2)
+}
+
+
+footer p {
+    margin-bottom: 2em
+}
+
+body#transitiongallery section.container {
+    width: 300px
+}
+
+body#transitiongallery section.container div#slidercontainer {
+    position: relative
+}
+
+body#transitiongallery section.container div#slidercontainer div#transitions {
+    position: absolute;
+    z-index: 350;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    font-size: 0.85em
+}
+
+body#transitiongallery section.container div#slidercontainer div#transitions h2 {
+    font-size: 1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0.7em
+}
+
+body#transitiongallery section.container div#slidercontainer div#transitions ul {
+    margin-bottom: 0em;
+}
+
+body#transitiongallery section.container div#slidercontainer div#transitions ul li {
+    font-size: 0.8em;
+    margin-bottom: 0em
+}
+
+body#transitiongallery section.container div#slidercontainer div#transitions ul li a {
+    height: 300px;
+    width: 250px;
+    display: block;
+    position: relative;
+    padding: 1px;
+}
+
+body#transitiongallery section.container div#slidercontainer div#transitions ul li a:active {
+    top: 1px
+}
+
+body#transitiongallery section.container div#slidercontainer div#transitions ul li a.new:after {
+    content: 'New';
+    font-size: 0.8em;
+    padding: 0.2em 0.4em;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: -0.5em;
+    right: -0.5em
+}
